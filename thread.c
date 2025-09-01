@@ -37,6 +37,6 @@ int main() {
         Single_total_sum += arr[i];
     }
     printf("Single-threaded sum: %d\n", Single_total_sum);
-	printf("Total sum: %d\n", total_sum);
+	printf("Multi-threaded sum: %d\n", total_sum);
 	return 0;
 }
